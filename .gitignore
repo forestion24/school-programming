@@ -1,3 +1,4 @@
-*.exe
-.vscode/
-build/
+#ignore everything but .cpp and README
+*
+!*.cpp
+!/README
