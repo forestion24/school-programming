@@ -21,7 +21,7 @@ int main() {
   int p = przed[0].first, k = przed[0].second;
   for (int i = 1; i < n; i++) {
     if (przed[i].first <= k) {
-      k = przed[i].second;
+      k = max(przed[i].second, k);
     } else {
       cout << p << " " << k << '\n';
       p = przed[i].first;
