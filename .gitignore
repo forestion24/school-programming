@@ -1,4 +1,6 @@
 #ignore everything but .cpp and README
 *
 !*.cpp
+!*.h
+!*.cc
 !/README
